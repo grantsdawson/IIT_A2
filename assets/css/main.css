@@ -83,13 +83,18 @@ input, select, textarea {
 
 	body {
 		background: #D4D9DD url("images/bg03.jpg");
-		color: #474f51;
+		color: black;
 		font-size: 13.5pt;
 		font-family: 'Yanone Kaffeesatz';
 		line-height: 1.85em;
 		font-weight: 300;
+		word-spacing: .075em;
+		letter-spacing: .035em;
 	}
-
+hr {
+	margin-bottom: 8%;
+	margin-top: 5%;
+}
 	input, textarea, select {
 		color: #474f51;
 		font-size: 13.5pt;
@@ -99,7 +104,7 @@ input, select, textarea {
 	}
 
 	ul, ol, p, dl {
-		margin: 0 0 2em 0;
+		margin: 2em 0 3em 0;
 	}
 
 	a {
@@ -107,6 +112,9 @@ input, select, textarea {
 	}
 
 		a:hover {
+
+			color: white;
+			text-shadow: 2px 3px 3px #AAAAAA;
 			text-decoration: none;
 		}
 
@@ -1620,12 +1628,19 @@ input, select, textarea {
 		#content h2 {
 			font-size: 1.8em;
 			color: #373f42;
-			margin: 0 0 0.25em 0;
+			font-weight: 500;
+			margin: .5em 0 0.5em 0;
 		}
 
 		#content h3 {
-			color: #96a9b5;
+			color: #373f42;
+			font-weight: 400;
 			font-size: 1.25em;
+			margin: 1em 0 2em 0;
+		}
+		#content img {
+			margin-top: 3%;
+			margin-bottom: 1.5%;
 		}
 
 		#content a {
